@@ -13,6 +13,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "02_10 airplane_array", "02_
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Phone book", "Phone book\Phone book.vcxproj", "{6B205CB1-A7D1-4925-A9D7-A77EF398E65F}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Array for 26_10", "Array for 26_10\Array for 26_10.vcxproj", "{5D4029A6-3B12-4FAE-802F-E81F6B2D538B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -61,6 +63,14 @@ Global
 		{6B205CB1-A7D1-4925-A9D7-A77EF398E65F}.Release|x64.Build.0 = Release|x64
 		{6B205CB1-A7D1-4925-A9D7-A77EF398E65F}.Release|x86.ActiveCfg = Release|Win32
 		{6B205CB1-A7D1-4925-A9D7-A77EF398E65F}.Release|x86.Build.0 = Release|Win32
+		{5D4029A6-3B12-4FAE-802F-E81F6B2D538B}.Debug|x64.ActiveCfg = Debug|x64
+		{5D4029A6-3B12-4FAE-802F-E81F6B2D538B}.Debug|x64.Build.0 = Debug|x64
+		{5D4029A6-3B12-4FAE-802F-E81F6B2D538B}.Debug|x86.ActiveCfg = Debug|Win32
+		{5D4029A6-3B12-4FAE-802F-E81F6B2D538B}.Debug|x86.Build.0 = Debug|Win32
+		{5D4029A6-3B12-4FAE-802F-E81F6B2D538B}.Release|x64.ActiveCfg = Release|x64
+		{5D4029A6-3B12-4FAE-802F-E81F6B2D538B}.Release|x64.Build.0 = Release|x64
+		{5D4029A6-3B12-4FAE-802F-E81F6B2D538B}.Release|x86.ActiveCfg = Release|Win32
+		{5D4029A6-3B12-4FAE-802F-E81F6B2D538B}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

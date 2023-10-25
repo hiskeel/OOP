@@ -1,0 +1,4 @@
+﻿  Source.cpp
+D:\IT Step\oop2\Array for 26_10\Source.cpp(172,13): warning C4326: возвращаемый тип "main" должен быть "int", а не "void"
+D:\IT Step\oop2\Array for 26_10\Source.cpp(173,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+  Array for 26_10.vcxproj -> D:\IT Step\oop2\x64\Debug\Array for 26_10.exe
