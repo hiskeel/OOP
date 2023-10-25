@@ -11,6 +11,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "19_10 HT", "19_10 HT\19_10 
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "02_10 airplane_array", "02_10 airplane_array\02_10 airplane_array.vcxproj", "{301AAEF7-3D92-48CE-AA09-BB1CA48430C5}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Phone book", "Phone book\Phone book.vcxproj", "{6B205CB1-A7D1-4925-A9D7-A77EF398E65F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -51,6 +53,14 @@ Global
 		{301AAEF7-3D92-48CE-AA09-BB1CA48430C5}.Release|x64.Build.0 = Release|x64
 		{301AAEF7-3D92-48CE-AA09-BB1CA48430C5}.Release|x86.ActiveCfg = Release|Win32
 		{301AAEF7-3D92-48CE-AA09-BB1CA48430C5}.Release|x86.Build.0 = Release|Win32
+		{6B205CB1-A7D1-4925-A9D7-A77EF398E65F}.Debug|x64.ActiveCfg = Debug|x64
+		{6B205CB1-A7D1-4925-A9D7-A77EF398E65F}.Debug|x64.Build.0 = Debug|x64
+		{6B205CB1-A7D1-4925-A9D7-A77EF398E65F}.Debug|x86.ActiveCfg = Debug|Win32
+		{6B205CB1-A7D1-4925-A9D7-A77EF398E65F}.Debug|x86.Build.0 = Debug|Win32
+		{6B205CB1-A7D1-4925-A9D7-A77EF398E65F}.Release|x64.ActiveCfg = Release|x64
+		{6B205CB1-A7D1-4925-A9D7-A77EF398E65F}.Release|x64.Build.0 = Release|x64
+		{6B205CB1-A7D1-4925-A9D7-A77EF398E65F}.Release|x86.ActiveCfg = Release|Win32
+		{6B205CB1-A7D1-4925-A9D7-A77EF398E65F}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
