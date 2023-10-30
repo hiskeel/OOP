@@ -1,0 +1,3 @@
+﻿  Source.cpp
+D:\IT Step\oop2\StackHT\Source.cpp(97,13): warning C4326: возвращаемый тип "main" должен быть "int", а не "void"
+  StackHT.vcxproj -> D:\IT Step\oop2\x64\Debug\StackHT.exe
