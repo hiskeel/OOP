@@ -1,0 +1,3 @@
+﻿  Source.cpp
+D:\IT Step\oop2\02_11HT\Source.cpp(100,13): warning C4326: возвращаемый тип "main" должен быть "int", а не "void"
+  02_11HT.vcxproj -> D:\IT Step\oop2\x64\Debug\02_11HT.exe

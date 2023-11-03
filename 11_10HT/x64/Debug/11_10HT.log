@@ -1,0 +1,5 @@
+﻿  Source.cpp
+D:\IT Step\oop2\11_10HT\Source.cpp(132,13): warning C4326: возвращаемый тип "main" должен быть "int", а не "void"
+D:\IT Step\oop2\11_10HT\Source.cpp(138,14): warning C4305: аргумент: усечение из "int" в "char"
+D:\IT Step\oop2\11_10HT\Source.cpp(138,10): warning C4309: аргумент: усечение константного значения
+  11_10HT.vcxproj -> D:\IT Step\oop2\x64\Debug\11_10HT.exe
