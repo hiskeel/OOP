@@ -1,3 +1,6 @@
 ﻿  Source.cpp
-D:\IT Step\oop2\Animal\Source.cpp(30,13): warning C4326: возвращаемый тип "main" должен быть "int", а не "void"
+D:\IT Step\oop2\Animal\Source.cpp(93,13): warning C4326: возвращаемый тип "main" должен быть "int", а не "void"
+D:\IT Step\oop2\Animal\Source.cpp(95,62): warning C4305: аргумент: усечение из "double" в "float"
+D:\IT Step\oop2\Animal\Source.cpp(102,53): warning C4305: аргумент: усечение из "double" в "float"
+D:\IT Step\oop2\Animal\Source.cpp(109,56): warning C4305: аргумент: усечение из "double" в "float"
   Animal.vcxproj -> D:\IT Step\oop2\x64\Debug\Animal.exe
