@@ -31,6 +31,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "inheritance", "inheritance\
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Animal", "Animal\Animal.vcxproj", "{1CB7D48F-F7BD-4961-B9D2-B324D57E5F35}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "04_11 Points", "02_11 Date\02_11 Date.vcxproj", "{1560E9DE-C978-4E61-9186-017B4156B709}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -151,6 +153,14 @@ Global
 		{1CB7D48F-F7BD-4961-B9D2-B324D57E5F35}.Release|x64.Build.0 = Release|x64
 		{1CB7D48F-F7BD-4961-B9D2-B324D57E5F35}.Release|x86.ActiveCfg = Release|Win32
 		{1CB7D48F-F7BD-4961-B9D2-B324D57E5F35}.Release|x86.Build.0 = Release|Win32
+		{1560E9DE-C978-4E61-9186-017B4156B709}.Debug|x64.ActiveCfg = Debug|x64
+		{1560E9DE-C978-4E61-9186-017B4156B709}.Debug|x64.Build.0 = Debug|x64
+		{1560E9DE-C978-4E61-9186-017B4156B709}.Debug|x86.ActiveCfg = Debug|Win32
+		{1560E9DE-C978-4E61-9186-017B4156B709}.Debug|x86.Build.0 = Debug|Win32
+		{1560E9DE-C978-4E61-9186-017B4156B709}.Release|x64.ActiveCfg = Release|x64
+		{1560E9DE-C978-4E61-9186-017B4156B709}.Release|x64.Build.0 = Release|x64
+		{1560E9DE-C978-4E61-9186-017B4156B709}.Release|x86.ActiveCfg = Release|Win32
+		{1560E9DE-C978-4E61-9186-017B4156B709}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

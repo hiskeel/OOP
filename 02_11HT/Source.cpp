@@ -100,6 +100,6 @@ void operator -=(Date date, int value) {
 void main() {
 	Date date(20, 11, 2022);
 	date.ShowDate();
-	date.+= (date, 100);
+	
 	date.ShowDate();
 }
