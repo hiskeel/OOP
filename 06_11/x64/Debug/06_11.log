@@ -1,0 +1,5 @@
+﻿  Source.cpp
+D:\IT Step\oop2\06_11\Source.cpp(151,13): warning C4326: возвращаемый тип "main" должен быть "int", а не "void"
+D:\IT Step\oop2\06_11\Source.cpp(152,15): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+D:\IT Step\oop2\06_11\Source.cpp(77): warning C4715: Array<int>::operator[]: значение возвращается не при всех путях выполнения
+  06_11.vcxproj -> D:\IT Step\oop2\x64\Debug\06_11.exe
