@@ -71,7 +71,9 @@ class Reptile : public Animal {
 private:
 	string movement;
 	string voice;
+
 public:
+	
 	Reptile() :movement("movement"), voice("voice"), Animal() {}
 	Reptile(string t, float s, float w, string e, string movment, string voice) :movement(movment), voice(voice), Animal(t, s, w, e) {}
 	void Show() {
