@@ -1,0 +1,5 @@
+6 1 2 3 Redshir
+1 12 32 4 London
+4 12 32 44 Kyiv
+2 13 4 4 Berlin
+3 24 1 1 Paris

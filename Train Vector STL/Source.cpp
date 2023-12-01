@@ -81,9 +81,19 @@ public:
 	const short GetSeconds() {
 		return departureTime.sec;
 	}
-
+	friend ostream& operator << (ostream& out, const Train& train);
+	friend istream& operator >> (istream& out,  Train& train);
 };
-
+ostream& operator << (ostream& out, const Train& train)
+{
+	out << train.number << " " << train.departureTime.hours << " " << train.departureTime.minutes << " " << train.departureTime.sec << " " << train.destination;
+	return out;
+}
+istream& operator >> (istream& in,  Train& train)
+{
+	in >> train.number >>train.departureTime.hours >> train.departureTime.minutes >> train.departureTime.sec >> train.destination;
+	return in;
+}
 class Railway {
 	vector <Train> trains;
 	static bool CompareTrainsByArrivalTime( Train& a,  Train& b) {
@@ -190,7 +200,37 @@ public:
 		in.close();
 	}
 	
+	void SaveWithOperator()const
+	{
+		ofstream out("Saved with operators.txt", ios_base::out);
+		
+		for (int i = 0; i < trains.size(); i++)
+		{
+			out << trains[i] << endl;
+		}
+		out.close();
+	}
+	void LoadWithOperator() {
+		ifstream in("Saved with operators.txt", ios_base::in);
+		//char buff[255];
+	   // in.getline(buff, 255);
+		
+		trains.clear();
+		int i = 0;
+		
+		do {
+			if (!in.eof())
+			{
+				trains.resize(trains.size() + 1);
+				in >> trains[i];
+				i++;
+			}
+			
+		}while (!in.eof());
+		trains.pop_back();
+		in.close();
 
+	}
 
 	void SortTrainsByArrivalTime() {
 		sort(trains.begin(), trains.end(), CompareTrainsByArrivalTime);
@@ -201,17 +241,20 @@ public:
 void main() {
 	
 	Railway station;
-	station.LoadFromFile();
+	/*station.LoadFromFile();*/
+	station.LoadWithOperator();
+
+	/*station.AddTrain();
 	station.AddTrain();
-	station.AddTrain();
-	station.AddTrain();
+	station.AddTrain();*/
 	/*station.ChangeDepartureTime(1);*/
 	
 	station.ShowInfo();
-	station.SortTrainsByArrivalTime();
-	station.ShowInfo();
-	station.SaveToFile();
-	station.ShowTrainsByDestination("London");
+	//station.SortTrainsByArrivalTime();
+	//station.ShowInfo();
+	///*station.SaveToFile();*/
+	//station.SaveWithOperator();
+	//station.ShowTrainsByDestination("London");
 	/*station.ShowTrain(4);*/
 
 }
