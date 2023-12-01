@@ -22,24 +22,24 @@ public:
  void TestShape(Shape& shape) {
 	shape.Show();
 }
-class Square : public Shape {
-	int line;
+class Circle : public Shape {
+	int radius;
 public:
-	Square() :Shape(), line(0) {}
-	Square(string n, string t, double a, int l) :line(l), Shape(n, t, a) {}
+	Circle() :Shape(), radius(0) {}
+	Circle(string n, string t, double a, int l) :radius(l), Shape(n, t, a) {}
 	void Show() {
 		Shape::Show();
-		cout << "Line: " << line << "cm" << endl;
+		cout << "radius: " << radius << "cm" << endl;
 	}
 };
-class Square : public Shape {
+class Triangle : public Shape {
 	int line;
 public:
-	Square() :Shape(), line(0) {}
-	Square(string n, string t, double a, int l) :line(l), Shape(n, t, a) {}
+	Triangle() :Shape(), line(0) {}
+	Triangle(string n, string t, double a, int l) :line(l), Shape(n, t, a) {}
 	void Show() {
 		Shape::Show();
-		cout << "Line: " << line << "cm" << endl;
+		cout << "Line of triangle: " << line << "cm" << endl;
 	}
 };
 class Square : public Shape {
@@ -56,5 +56,12 @@ public:
 
 void main() {
 	Square a;
+	Triangle b;
+	Circle c;
 	TestShape(a);
+	cout << endl;
+	TestShape(b);
+	cout << endl;
+	TestShape(c);
+	cout << endl;
 }
