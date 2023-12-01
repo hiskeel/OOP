@@ -3,7 +3,6 @@
 
 using namespace std;
 
-// Клас, що представляє водія
 class Driver {
 private:
     string name;
@@ -24,7 +23,7 @@ public:
 
 };
 
-// Клас, що представляє автомобіль
+
 class Car {
 private:
     string engine;
@@ -38,29 +37,27 @@ private:
     int year;
     Driver* driver;
 public:
-    // Конструктор за замовчуванням
+    
     Car() : driver(nullptr) {}
-
-    // Конструктор з параметрами
     Car(const string& engine, const string& body, const string& wheels,
         const string& doors, const string& transmission, const string& lights,
         const string& brand, const string& model, int year)
         : engine(engine), body(body), wheels(wheels), doors(doors), transmission(transmission),
         lights(lights), brand(brand), model(model), year(year), driver(nullptr) {}
 
-    // Перевантажений конструктор для додавання водія через параметр
+    
     Car(const string& engine, const string& body, const string& wheels,
         const string& doors, const string& transmission, const string& lights,
         const string& brand, const string& model, int year, Driver* driver)
         : engine(engine), body(body), wheels(wheels), doors(doors), transmission(transmission),
         lights(lights), brand(brand), model(model), year(year), driver(driver) {}
 
-    // Метод для додавання водія через виклик методу
+   
     void AddDriver(Driver* newDriver) {
         driver = newDriver;
     }
 
-    // Метод для відображення інформації про автомобіль та водія (якщо він є)
+    
     void Show() const {
         cout << "Car Information:\n";
         cout << "Brand: " << brand << "\n";
@@ -84,17 +81,17 @@ public:
 };
 
 int main() {
-    // Створення водія
+   
     Driver driver("John", "Doe", 30, 5);
 
-    // Створення автомобіля та додавання водія через конструктор
+ 
     Car carWithDriver("V8", "Sedan", "18-inch Alloy", "4", "Automatic", "LED", "Toyota", "Camry", 2022, &driver);
 
-    // Створення автомобіля та додавання водія через метод
+    
     Car carWithoutDriver("V6", "SUV", "20-inch Alloy", "5", "Manual", "Xenon", "Honda", "CR-V", 2023);
     carWithoutDriver.AddDriver(&driver);
 
-    // Виведення інформації про автомобілі
+   
     carWithDriver.Show();
     cout << "\n";
     carWithoutDriver.Show();
